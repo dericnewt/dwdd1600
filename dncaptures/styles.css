@@ -1,0 +1,174 @@
+
+
+/*-- BODY --*/
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /*background-image: url(style_images/stock_city.webp);
+    background-size: cover;
+    background-repeat: no-repeat;*/
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 16px;
+}
+
+/*-- HEADER / NAV --*/
+
+.home .header-overlay .nav a{
+    margin: 0;
+}
+
+.home .header-overlay .signature p{
+    margin: 0;
+}
+
+.home{
+    background-image: url(style_images/stock_city.webp);
+    display: flex;
+    flex-direction: column;
+}
+
+.header-overlay{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.signature{
+    padding: 0 50px;
+}
+
+.nav{
+    padding-right: 25px;
+}
+
+nav a{
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+}
+nav a:hover{
+    color: lightslategray;
+}
+
+/*-- BODY --*/
+
+.about{
+    color: #fff;
+    padding: 100px 50px 20px;    
+}
+
+.about h1{
+    text-align: center;
+}
+
+h1{
+    font-weight: 500;
+    font-size: 2rem;
+}
+
+/*-- FOOTER --*/
+
+.footer, .contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.contact h1, .contact p{
+    padding: 0;
+}
+
+.cntct{
+    width: 75px;
+}
+
+.cntct p{
+    text-decoration: none;
+    background-color: #fff;
+    border: 2px solid #1b1b1b;
+    font-size: .9rem;
+    letter-spacing: 5px;
+    padding: 10px;
+    color: #1b1b1b;
+}
+
+/*-- FORM --*/
+
+form{
+    
+}
+
+fieldset{
+    border: none;
+}
+
+/*-- PORTFOLIO --*/
+
+.gal-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 40px 20px 0 20px;
+}
+
+.gal-container .heading{
+    width: 50%;
+    padding-bottom: 50px;
+}
+
+.gal-container .heading h3{
+    font-size: 3rem;
+    font-weight: bolder;
+    padding-bottom: 10px;
+    border-bottom: 3px solid #222;
+}
+
+.gal-container .heading h3 span{
+    font-weight: 100;
+}
+
+.gal-container .box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.gal-container .box .galCol{
+    display: flex;
+    flex-direction: column;
+    width: 32%;
+}
+
+.gal-container .box .galCol img{
+    width: 100%;
+    padding-bottom: 15px;
+    border-radius: 5px;
+}
+
+.gal-container .btn{
+    margin: 40px 0 70px 0;
+    background-color: #222;
+    padding: 15px 40px;
+    border-radius: 5px;
+}
+
+.gal-container .btn a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+
+@media only screen and (max-width: 769px){
+
+}
